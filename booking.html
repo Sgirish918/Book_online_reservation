@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Book Reservation System</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <h1> Booking System</h1>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>Book a Book</h2>
+            <form id="bookingForm">
+                <label for="bookTitle">Book Title:</label>
+                <input type="text" id="bookTitle" required>
+                <label for="borrowerName">Borrower Name:</label>
+                <input type="text" id="borrowerName" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="booking-list">
+            <h2>Current Bookings</h2>
+            <table id="bookingTable">
+                <thead>
+                    <tr>
+                        <th>Book Title</th>
+                        <th>Borrower Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="booking.js"></script>
+</body>
+</html>
